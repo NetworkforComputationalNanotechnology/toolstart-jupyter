@@ -8,14 +8,14 @@ Refer to the *whypublish* links below for details on why and how to publish cont
 
 1. Create a new GitHub repository and select `toolsart-jupyter` as a template.  
 See: [Creating a Repository From a Template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
- - Recommendation: Set the name of the repository to match the tool short name you plan to use in step 2 when you register your tool.
+ - Recommendation: Set the name of the repository to match the tool short name you plan to use in step 2 when you register your tool in nanoHUB.
 
-
-2. Create a new tool page on nanoHUB using the [nanoHUB tool creation form](https://nanohub.org/tools/create)  
+2. Register your tool and create a new tool page on nanoHUB using the [nanoHUB tool creation form](https://nanohub.org/tools/create)  
   - Set the Repository Host Option to "Host GIT repository on GitHUB"
   - Set the Repository URL to your GitHub repo:  
     Public URL: `https://github.com/yourgithubrepo`  
     Private URL: `ssh://github.com/yourgithubrepo`
+    
 3. Edit the `/middleware/invoke` file as follows:  
 - Determine whether the tool will run as an ordinary notebook or in *App Mode*, adjust the `start_jupyter` option as needed.  See **App Mode vs Sequential Notebook** below for more details.  
 - Edit `-T @tool mytool.ipynb` to match the actual name of your notebook.
