@@ -19,7 +19,7 @@ See: [Creating a Repository From a Template](https://docs.github.com/en/free-pro
 3. Edit the `/middleware/invoke` file as follows:  
 - Determine whether the tool will run as an ordinary notebook or in *App Mode*, adjust the `start_jupyter` option as needed.  See **App Mode vs Sequential Notebook** below for more details.  
 - Edit `-T @tool mytool.ipynb` to match the actual name of your notebook.
-- Edit `-t mytool \` to match the "short name" of the tool as created on nanoHUB via the [nanoHUB tool creation form](https://nanohub.org/tools/create).
+- Edit `-t mytool \` to match the "short name" of the tool as created in nanoHUB via the [nanoHUB tool creation form](https://nanohub.org/tools/create).
 
 ## App Mode vs Sequential Notebook
 Notebooks that are published with the `-A` option to the `start_jupyter` command or will launch in *App Mode* which will cause them to execute in their entirety when launched.  This is primarily intended for tools that deploy an [ipywidjets](https://ipywidgets.readthedocs.io/en/latest)/event-based user interface.
