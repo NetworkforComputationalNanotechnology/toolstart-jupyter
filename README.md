@@ -7,8 +7,10 @@ It is assumed you are a registered user on nanoHUB and intend to install and pub
 Refer to the *whypublish* links below for details on why and how to publish content on nanoHUB.  
 
 1. Create a new GitHub repository and select `toolsart-jupyter` as a template.  
- - Recommendation: Set the name of the repository to match the short name you plan to use for your tool.
 See: [Creating a Repository From a Template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+ - Recommendation: Set the name of the repository to match the short name you plan to use for your tool.
+
+
 2. Create a new tool page on nanoHUB using the [nanoHUB tool creation form](https://nanohub.org/tools/create)  
   - Set the Repository Host Option to "Host GIT repository on GitHUB"
   - Set the Repository URL to your GitHub repo:  
