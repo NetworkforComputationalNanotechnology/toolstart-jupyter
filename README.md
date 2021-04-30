@@ -8,7 +8,7 @@ Refer to the *whypublish* links below for details on why and how to publish cont
 
 1. Create a new GitHub repository and select `toolsart-jupyter` as a template.  
 See: [Creating a Repository From a Template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
- - Recommendation: Set the name of the repository to match the short name you plan to use for your tool.
+ - Recommendation: Set the name of the repository to match the tool short name you plan to use in step 2 when you register your tool.
 
 
 2. Create a new tool page on nanoHUB using the [nanoHUB tool creation form](https://nanohub.org/tools/create)  
