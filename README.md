@@ -22,7 +22,7 @@ See: [Creating a Repository From a Template](https://docs.github.com/en/free-pro
 - Edit `-t mytool \` to match the "short name" of the tool as created in nanoHUB via the [nanoHUB tool creation form](https://nanohub.org/tools/create).
 
 ## App Mode vs Sequential Notebook
-Notebooks that are published with the `-A` option to the `start_jupyter` command or will launch in *App Mode* which will cause them to execute in their entirety when launched.  This is primarily intended for tools that deploy an [ipywidjets](https://ipywidgets.readthedocs.io/en/latest)/event-based user interface.
+Notebooks that are published with the `-A` option to the `start_jupyter` command or will launch in *App Mode* which will cause them to execute in their entirety when launched.  This is primarily intended for tools that deploy an [ipywidgets](https://ipywidgets.readthedocs.io/en/latest)/event-based user interface.
 
 Notebooks published without the `-A` option to the `start_jupyter` command will deploy a standard hosted Jupyter notebook that can be executed and edited by the user.
 
